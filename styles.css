@@ -8,7 +8,6 @@
 }
 
 body {
-    display: block;
     width: 100%;
     height: 100%;
     background-color: white;
@@ -20,16 +19,14 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 25%;
+    height: 500px;
     background-color: #1f2937;
-    border: 2px solid red;
 }
 
 header .upper {
     display: inline-flex;
     width: 70%;
     margin-top: 1.5%;
-    border: 2px solid red;
 }
 
 header .upper h1 {
@@ -40,7 +37,7 @@ header .upper h1 {
 
 header .upper nav {
     display: inline-flex;
-    align-items: center;
+    align-items: end;
     justify-content: right;
     width: 30%;
 }
@@ -50,7 +47,6 @@ header .lower {
     width: 70%;
     margin-top: 6.5%;
     margin-bottom: 6.5%; 
-    border: 2px solid red;
 }
 
 header .lower h1 {
@@ -83,8 +79,8 @@ header .lower button:hover {
 }
 
 header .lower img {
-    width: 50%;
-    height: 50%;
+    width: 450px;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -102,4 +98,92 @@ nav li a {
 nav li a:hover {
     text-decoration: none;
     color: white;
+}
+
+.one {
+    size: 100%;
+    height: 450px;
+    background-color: #F9FAF8;
+}
+
+.one h1 {
+    text-align: center;
+    width: 100%;
+    height: min-content;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #1f2937;
+}
+
+.one section {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 4%;
+}
+
+.one figure {
+    max-width: fit-content;
+}
+
+.one figure img {
+    width: 200px;
+    height: auto;
+    border-radius: 16px;
+    border: 4px solid #3882f6;
+}
+
+.one figure p {
+    text-align: center;
+    width: 200px;
+    height: auto;
+    margin-top: 1%;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-color: #E5E7EB;
+}
+
+.two article {
+    max-width: 47%;
+}
+
+.two #cite {
+    font-size: 24px;
+    font-style: italic;
+    height: fit-content;
+    color: #1f2937;
+}
+
+.two #author {
+    font-weight: bold;
+    font-size: 16;
+    text-align: right;
+    padding-right: 2%;
+    color: #1f2937;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    background-color: #F9FAF8;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: #F9FAF8;
+    background-color: #1f2937;
 }
