@@ -25,6 +25,7 @@ header {
 
 header .upper {
     display: inline-flex;
+    align-items: end;
     width: 70%;
     margin-top: 1.5%;
 }
@@ -37,7 +38,6 @@ header .upper h1 {
 
 header .upper nav {
     display: inline-flex;
-    align-items: end;
     justify-content: right;
     width: 30%;
 }
@@ -171,11 +171,53 @@ nav li a:hover {
 
 .three {
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
     width: 100%;
     height: 350px;
     background-color: #F9FAF8;
+}
+
+.three section {
+    display: inline-flex;
+    justify-content: space-between;
+    max-width: 71%;
+    border-radius: 10px;;
+    background-color: #3882f6;
+}
+
+.three article {
+    max-width: 48%;
+    margin: 4.5%;
+    margin-left: 10%;
+    margin-right: 0;
+    color: #F9FAF8;
+}
+
+.three article h1 {
+    font-size: 20px;
+}
+
+.three article p {
+    font-size: 14px;
+}
+
+.three button {
+    max-width: 15%;
+    margin: 4.5%;
+    margin-left: 0;
+    margin-right: 10%;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+}
+
+.three button:hover {
+    color: #3882f6;
+    background-color: #F9FAF8;
+    border: 2px solid #3882f6;
 }
 
 footer {
