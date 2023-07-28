@@ -1,2 +1,2 @@
 # landing-page
- Resuming a project from months ago.
+Here's a design from The Odin Project for a landing page.
